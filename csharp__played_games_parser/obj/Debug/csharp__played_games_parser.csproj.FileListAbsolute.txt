@@ -1,0 +1,5 @@
+C:\Users\ipetrash\RiderProjects\csharp__played_games_parser\csharp__played_games_parser\bin\Debug\csharp__played_games_parser.exe
+C:\Users\ipetrash\RiderProjects\csharp__played_games_parser\csharp__played_games_parser\bin\Debug\csharp__played_games_parser.pdb
+C:\Users\ipetrash\RiderProjects\csharp__played_games_parser\csharp__played_games_parser\obj\Debug\csharp__played_games_parser.csprojResolveAssemblyReference.cache
+C:\Users\ipetrash\RiderProjects\csharp__played_games_parser\csharp__played_games_parser\obj\Debug\csharp__played_games_parser.exe
+C:\Users\ipetrash\RiderProjects\csharp__played_games_parser\csharp__played_games_parser\obj\Debug\csharp__played_games_parser.pdb
