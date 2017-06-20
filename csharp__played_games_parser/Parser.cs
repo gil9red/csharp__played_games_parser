@@ -15,7 +15,6 @@ namespace csharp__played_games_parser
         public const string NOT_FINISHED_WATCHED = "NOT_FINISHED_WATCHED";
 
         /// Регулярка вытаскивает выражения вида: 1, 2, 3 или 1-3, или римские цифры: III, IV
-//        private const Pattern PARSE_GAME_NAME_PATTERN = Pattern.compile("(\\d+(, *?\\d+)+)|(\\d+ *?- *?\\d+)|([MDCLXVI]+(, ?[MDCLXVI]+)+)", Pattern.CASE_INSENSITIVE);
         private static Regex PARSE_GAME_NAME_PATTERN = new Regex(@"(\d+(, *?\d+)+)|(\d+ *?- *?\d+)|([MDCLXVI]+(, ?[MDCLXVI]+)+)", RegexOptions.Compiled);
         
         /// <summary>
@@ -65,7 +64,7 @@ namespace csharp__played_games_parser
 
                 var flag = line.Substring(0, 2);
 
-                string categoryName = null;
+                string categoryName;
 
                 switch (flag)
                 {
